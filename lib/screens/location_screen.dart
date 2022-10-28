@@ -44,7 +44,7 @@ class _LocationScreenState extends State<LocationScreen> {
             image: const AssetImage('images/location_background.jpg'),
             fit: BoxFit.cover,
             colorFilter: ColorFilter.mode(
-                Colors.white.withOpacity(0.8), BlendMode.dstATop),
+                Colors.white.withOpacity(0.5), BlendMode.dstATop),
           ),
         ),
         constraints: const BoxConstraints.expand(),
